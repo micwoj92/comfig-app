@@ -1,20 +1,10 @@
 import { LitElement, html } from 'lit';
+import {customElement, property} from 'lit/decorators.js';
 
-export const tagName = 'my-counter';
-
+@customElement('my-counter')
 class Counter extends LitElement {
-  static get properties() {
-    return {
-      count: {
-        type: Number,
-      },
-    };
-  }
-
-  constructor() {
-    super();
-    this.count = 0;
-  }
+  @property({type: Number})
+  count = 0;
 
   increment() {
     this.count++;
@@ -30,5 +20,3 @@ class Counter extends LitElement {
     `;
   }
 }
-
-customElements.define(tagName, Counter);

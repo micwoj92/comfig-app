@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/api/Layer.ts",
+      "declarations": [],
+      "exports": []
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/components/Counter.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "Counter",
+          "members": [
+            {
+              "kind": "field",
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "attribute": "count"
+            },
+            {
+              "kind": "method",
+              "name": "increment"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "fieldName": "count"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "my-counter",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "my-counter",
+          "declaration": {
+            "name": "Counter",
+            "module": "src/components/Counter.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/components/Test.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "CalcAdd",
+          "members": [
+            {
+              "kind": "field",
+              "name": "num",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "attribute": "num"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "num",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "fieldName": "num"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "calc-add",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "calc-add",
+          "declaration": {
+            "name": "CalcAdd",
+            "module": "src/components/Test.ts"
+          }
+        }
+      ]
+    }
+  ]
+}

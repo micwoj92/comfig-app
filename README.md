@@ -1,9 +1,16 @@
-# Astro + Lit Example
+# comfig-app
 
-```
-npm init astro -- --template framework-lit
-```
+The next-generation, universal platform for comfig. Under construction!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/framework-lit)
+## Development
 
-This example showcases Astro working with [Lit](https://lit.dev/).
+You will need:
+
+* Node
+* pnpm
+
+If you are VS Code, the following extensions are recommended:
+
+* Astro
+* lit-plugin
+* Prettier
